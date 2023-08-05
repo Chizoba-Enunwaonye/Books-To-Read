@@ -1,0 +1,65 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+#book-list {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+#book-list , title {
+    color: #555;
+    font-size: 24px;
+}
+
+ul li .name {
+   font-size: 18px; 
+   color: #333;
+   
+}
+
+ ul li .delete input[type="button"] {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #ff0000;
+    display: flex;
+    margin-left: auto;
+    
+}
+
+ul li {
+    margin-bottom: 30px;
+    align-items: center;
+    
+}
+#add-book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#book-name{
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#add-button{
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.book-item {
+    display: flex;
+    align-items: center;
+}
+
+
